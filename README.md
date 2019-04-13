@@ -1,8 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Electron based on this tutorial https://medium.freecodecamp.org/building-an-electron-application-with-create-react-app-97945861647c
 
-## Available Scripts
+## Main Dev Script
 
 In the project directory, you can run:
+
+### `npm run dev`
+
+Runs Starts React Process and broadcasts in localhost:0000 (webpack-dev-server) followed by Electron.
+
+## React Available Scripts
 
 ### `npm start`
 
