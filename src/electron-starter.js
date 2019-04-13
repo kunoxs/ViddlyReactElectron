@@ -15,9 +15,6 @@ const url = require('url');
 let mainWindow
 
 
-
-const ash = '#171819E3'
-
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
@@ -25,7 +22,8 @@ function createWindow () {
     maxWidth: 760,
     minWidth: 620,
     height: 660,
-    backgroundColor: ash,
+    minHeight: 620,
+    backgroundColor: '#171819E3',
     opacity: 1,
     transparent: false,
     frame: false,
@@ -47,7 +45,7 @@ function createWindow () {
     mainWindow.loadURL(startUrl);
 
   // Open the DevTools.  
- //mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {

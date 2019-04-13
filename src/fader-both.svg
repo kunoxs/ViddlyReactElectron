@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="256px" viewBox="0 0 123 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.55" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.34" offset="13.2758695%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.21" offset="24.0446905%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.13" offset="33.931646%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.08" offset="39.9866025%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.13" offset="47.3417592%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.21" offset="54.0795024%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.34" offset="62.4712143%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.55" offset="74.0089101%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.89" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Previews" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-811.000000, -53.000000)" fill="url(#linearGradient-1)">
+            <rect id="Rectangle" style="mix-blend-mode: multiply;" x="811" y="53" width="256" height="256"></rect>
+        </g>
+    </g>
+</svg>
