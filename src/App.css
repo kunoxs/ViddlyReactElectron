@@ -42,24 +42,45 @@ body {
 
 .MainInput {
   display: block;
-  width: 320px;
-  height: 32px;
-  border-radius: 16px;
+  width: 340px;
+  height: 38px;
+  border-radius: 19px;
   padding: 0 21px;
-  margin-top: 5px;
+  margin-top: 21px;
 
-  font-size: 13px;
-  background-color: rgba(255, 255, 255, 1);
-  -webkit-backdrop-filter: blur(13);
+  font-size: 15px;
+  /* background-color: rgba(255, 255, 255, 0.45); */
+  background-color: rgba(0, 0, 0, 0.55);
+  color: rgba(255,255,255,0.79);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   border: none;
   box-sizing: border-box;
+  transition: all linear 120ms;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+.MainInput:hover {
+  /* background-color: rgba(255, 255, 255, 0.55); */
+  background-color: rgba(0, 0, 0, 0.68);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
+}
+
+.MainInput:focus {
+  outline: none;
+  /* background-color: rgba(255, 255, 255, 1); */
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
 
 }
 
 .MainInput::placeholder {
   text-align: left;
-  font-weight: 600;
-  color: rgba(0,0,0,0.55);
+  font-weight: 500;
+  /* color: rgba(0,0,0,0.55); */
+  color: rgba(255,255,255,0);
   letter-spacing: 0;
   line-height: 16px;
 }
@@ -131,20 +152,23 @@ body {
   position: fixed;
   display: block;
   width: 100vw;
-  height: 48px;
+  height: 54px;
   box-sizing: border-box;
   background-color: #FFF;
   z-index: 2;
 }
 
 .GridItem {
-  width: 100%;
-  height: 36px;
+  width: auto;
+  height: 34px;
   background-color: #F2F2F2;
   border-radius: 8px;
   box-sizing: border-box;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 
 .GridItem:nth-child(odd) {
   background-color: #FFF;
+  height: 32px;
 }
